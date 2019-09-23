@@ -29,8 +29,27 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`todo add`](#todo-add)
 * [`todo hello`](#todo-hello)
 * [`todo help [COMMAND]`](#todo-help-command)
+
+## `todo add`
+
+Describe the command here
+
+```
+USAGE
+  $ todo add
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/add.js](https://github.com/daltonjorge/todo/blob/v0.0.0/src/commands/add.js)_
 
 ## `todo hello`
 

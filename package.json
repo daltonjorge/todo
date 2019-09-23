@@ -10,7 +10,8 @@
   "dependencies": {
     "@oclif/command": "^1.5.19",
     "@oclif/config": "^1.13.3",
-    "@oclif/plugin-help": "^2.2.1"
+    "@oclif/plugin-help": "^2.2.1",
+    "chalk": "^2.4.2"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1.22.2",
@@ -44,7 +45,7 @@
   "repository": "daltonjorge/todo",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
-    "posttest": "eslint .",
+    "posttest": "",
     "prepack": "oclif-dev manifest && oclif-dev readme",
     "test": "jest",
     "version": "oclif-dev readme && git add README.md"
