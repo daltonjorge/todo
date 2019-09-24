@@ -1,22 +1,24 @@
 const {Command, flags} = require('@oclif/command')
 const chalk = require('chalk')
+const { addTask } = require('../api/taskAPI')
+const { readTasks, writeTasks } = require('../api/ioApi')
 
 class AddCommand extends Command {
   async run() {
     const {args, flags} = this.parse(AddCommand)
     const task = args.task
     if (task) {
+      const tasks = readTasks();
+      let updatedTasks
       if (flags.done) {
-        // todoAPI.add(todo, true)
-        this.log('add new task as done')
+        updatedTasks = addTask(tasks, true, task)
       } else {
-        // todoAPI.add(todo)
-        this.log('add new task')
+        updatedTasks = addTask(tasks, false, task)
       }
+      writeTasks(updatedTasks)
       this.log(`${chalk.green('[Success]')} Added new task: ${task}`)
     } else {
-      // this.log(chalk.red('[Error] Please specify the new task'))
-      this.log('[Error] Please specify the new task')
+      this.log(`${chalk.red('[Error]')} Please specify the new task`)
     }
   }
 }
