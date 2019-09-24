@@ -29,45 +29,23 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`todo add`](#todo-add)
-* [`todo hello`](#todo-hello)
+* [`todo add [TASK]`](#todo-add-task)
 * [`todo help [COMMAND]`](#todo-help-command)
+* [`todo list`](#todo-list)
 
-## `todo add`
+## `todo add [TASK]`
 
-Describe the command here
+Add new task
 
 ```
 USAGE
-  $ todo add
+  $ todo add [TASK]
 
 OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
+  -d, --done  check task as done
 ```
 
 _See code: [src/commands/add.js](https://github.com/daltonjorge/todo/blob/v0.0.0/src/commands/add.js)_
-
-## `todo hello`
-
-Describe the command here
-
-```
-USAGE
-  $ todo hello
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
-```
-
-_See code: [src/commands/hello.js](https://github.com/daltonjorge/todo/blob/v0.0.0/src/commands/hello.js)_
 
 ## `todo help [COMMAND]`
 
@@ -85,4 +63,22 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.1/src/commands/help.ts)_
+
+## `todo list`
+
+Describe the command here
+
+```
+USAGE
+  $ todo list
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/list.js](https://github.com/daltonjorge/todo/blob/v0.0.0/src/commands/list.js)_
 <!-- commandsstop -->
