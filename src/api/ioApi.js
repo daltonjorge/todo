@@ -9,6 +9,7 @@ exports.readTasks = function() {
     if (fs.existsSync(taskFile)) {
       return JSON.parse(fs.readFileSync(taskFile, { encoding: 'utf-8' }))
     }
+    return []
   } catch(err) {
     return []
   }

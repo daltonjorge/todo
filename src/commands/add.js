@@ -9,12 +9,7 @@ class AddCommand extends Command {
     const task = args.task
     if (task) {
       const tasks = readTasks();
-      let updatedTasks
-      if (flags.done) {
-        updatedTasks = addTask(tasks, true, task)
-      } else {
-        updatedTasks = addTask(tasks, false, task)
-      }
+      let updatedTasks = addTask(tasks, flags.done, task)
       writeTasks(updatedTasks)
       this.log(`${chalk.green('[Success]')} Added new task: ${task}`)
     } else {
