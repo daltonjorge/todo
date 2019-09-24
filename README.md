@@ -32,6 +32,7 @@ USAGE
 * [`todo add [TASK]`](#todo-add-task)
 * [`todo help [COMMAND]`](#todo-help-command)
 * [`todo list`](#todo-list)
+* [`todo remove`](#todo-remove)
 
 ## `todo add [TASK]`
 
@@ -66,11 +67,22 @@ _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.1
 
 ## `todo list`
 
-Describe the command here
+Print out all todos
 
 ```
 USAGE
   $ todo list
+```
+
+_See code: [src/commands/list.js](https://github.com/daltonjorge/todo/blob/v0.0.0/src/commands/list.js)_
+
+## `todo remove`
+
+Describe the command here
+
+```
+USAGE
+  $ todo remove
 
 OPTIONS
   -n, --name=name  name to print
@@ -80,5 +92,5 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/list.js](https://github.com/daltonjorge/todo/blob/v0.0.0/src/commands/list.js)_
+_See code: [src/commands/remove.js](https://github.com/daltonjorge/todo/blob/v0.0.0/src/commands/remove.js)_
 <!-- commandsstop -->
