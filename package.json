@@ -1,7 +1,7 @@
 {
   "name": "todo",
   "description": "A simple  CLI todo app",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Dalton Jorge @daltonjorge",
   "bin": {
     "todo": "./bin/run"
