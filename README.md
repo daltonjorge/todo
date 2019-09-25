@@ -32,7 +32,9 @@ USAGE
 * [`todo add [TASK]`](#todo-add-task)
 * [`todo help [COMMAND]`](#todo-help-command)
 * [`todo list`](#todo-list)
-* [`todo remove`](#todo-remove)
+* [`todo mark`](#todo-mark)
+* [`todo remove [INDEX]`](#todo-remove-index)
+* [`todo teste`](#todo-teste)
 
 ## `todo add [TASK]`
 
@@ -76,20 +78,33 @@ USAGE
 
 _See code: [src/commands/list.js](https://github.com/daltonjorge/todo/blob/v0.0.0/src/commands/list.js)_
 
-## `todo remove`
+## `todo mark`
 
-Describe the command here
+Mark/Unmark your tasks
 
 ```
 USAGE
+  $ todo mark
+```
+
+_See code: [src/commands/mark.js](https://github.com/daltonjorge/todo/blob/v0.0.0/src/commands/mark.js)_
+
+## `todo remove [INDEX]`
+
+Remove a todo from list
+
+```
+USAGE
+  $ todo remove [INDEX]
+
+EXAMPLES
+
+  $ todo remove 0
+  [Success] Removed todo: a new todo
+
+
   $ todo remove
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
+  ›   Error: please specify the todo's index
 ```
 
 _See code: [src/commands/remove.js](https://github.com/daltonjorge/todo/blob/v0.0.0/src/commands/remove.js)_

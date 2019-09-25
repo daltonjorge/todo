@@ -21,9 +21,23 @@ function getTask(model, index) {
   }
 }
 
+function done(model, index) {
+  let data = model || []
+  data[index].done = true
+  return data
+}
+
+function undone(model, index) {
+  let data = model || []
+  data[index].done = false
+  return data
+}
+
 module.exports = {
   addTask,
   listTasks,
   removeTask,
-  getTask
+  getTask,
+  done,
+  undone
 }
