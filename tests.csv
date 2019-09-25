@@ -1,0 +1,9 @@
+/home/dalton/workspace/github/todo/test/api/add.test.js, /home/dalton/workspace/github/todo/src/api/taskAPI.js
+/home/dalton/workspace/github/todo/test/api/io.test.js, /home/dalton/workspace/github/todo/src/api/ioApi.js
+/home/dalton/workspace/github/todo/test/api/list.test.js, /home/dalton/workspace/github/todo/src/api/taskAPI.js
+/home/dalton/workspace/github/todo/test/api/mark.test.js, /home/dalton/workspace/github/todo/src/api/taskAPI.js
+/home/dalton/workspace/github/todo/test/api/remove.test.js, /home/dalton/workspace/github/todo/src/api/taskAPI.js
+/home/dalton/workspace/github/todo/test/commands/add.test.js, /home/dalton/workspace/github/todo/src/commands/add.js
+/home/dalton/workspace/github/todo/test/commands/list.test.js, /home/dalton/workspace/github/todo/src/commands/list.js
+/home/dalton/workspace/github/todo/test/commands/mark.test.js, /home/dalton/workspace/github/todo/src/commands/mark.js
+/home/dalton/workspace/github/todo/test/commands/remove.test.js, /home/dalton/workspace/github/todo/src/commands/remove.js
