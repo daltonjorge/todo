@@ -1,7 +1,6 @@
 # Welcome to todo 👋
-====
 
-A simple  CLI todo app
+> A simple  CLI todo app
 
 ![Prerequisite](https://img.shields.io/badge/node-%3E%3D8.0.0-blue.svg)
 [![Version](https://img.shields.io/npm/v/todo.svg)](https://npmjs.org/package/todo)
