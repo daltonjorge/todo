@@ -1,6 +1,6 @@
 {
   "name": "todo",
-  "description": "A simple  CLI todo app",
+  "description": "A simple CLI todo app",
   "version": "1.0.0",
   "author": "Dalton Jorge @daltonjorge",
   "bin": {

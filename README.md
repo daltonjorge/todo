@@ -1,18 +1,42 @@
-todo
+# Welcome to todo 👋
 ====
 
 A simple  CLI todo app
 
-[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
+![Prerequisite](https://img.shields.io/badge/node-%3E%3D8.0.0-blue.svg)
 [![Version](https://img.shields.io/npm/v/todo.svg)](https://npmjs.org/package/todo)
+[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Codecov](https://codecov.io/gh/daltonjorge/todo/branch/master/graph/badge.svg)](https://codecov.io/gh/daltonjorge/todo)
-[![Downloads/week](https://img.shields.io/npm/dw/todo.svg)](https://npmjs.org/package/todo)
-[![License](https://img.shields.io/npm/l/todo.svg)](https://github.com/daltonjorge/todo/blob/master/package.json)
+[![GitHub](https://img.shields.io/github/license/daltonjorge/todo)](https://github.com/daltonjorge/todo/blob/master/LICENSE)
 
 <!-- toc -->
+* [Prerequisites](#prerequisites)
+* [Install](#install)
+* [Run tests](#usage)
 * [Usage](#usage)
 * [Commands](#commands)
+* [Author](#author)
 <!-- tocstop -->
+
+# Prerequisites
+<!-- prerequisites -->
+- node >=8.0.0
+<!-- prerequisitesstop -->
+
+# Install
+<!-- install -->
+```sh
+npm install
+```
+<!-- installstop -->
+
+# Run tests
+<!-- run_tests -->
+```sh
+npm run test
+```
+<!-- run_tests -->
+
 # Usage
 <!-- usage -->
 ```sh-session
@@ -27,6 +51,7 @@ USAGE
 ...
 ```
 <!-- usagestop -->
+
 # Commands
 <!-- commands -->
 * [`todo add [TASK]`](#todo-add-task)
@@ -109,3 +134,16 @@ EXAMPLES
 
 _See code: [src/commands/remove.js](https://github.com/daltonjorge/todo/blob/v0.0.0/src/commands/remove.js)_
 <!-- commandsstop -->
+
+# Author
+<!-- author -->
+👤 **Dalton Jorge @daltonjorge**
+<!-- authorstop -->
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
